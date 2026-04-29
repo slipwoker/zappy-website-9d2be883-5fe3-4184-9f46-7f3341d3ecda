@@ -9498,6 +9498,324 @@ body.accessibility-widget-visible ._access-menu {
     font-size: 13px;
   }
 }
+
+/* Added Component Styles */
+/* ===== ABOUT SHIRA SECTION ===== */
+.about-shira-section {
+  background: var(--primary, #111315);
+  padding: 90px 20px;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle background decoration */
+.about-shira-section::before {
+  content: '';
+  position: absolute;
+  top: -120px;
+  left: -120px;
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle, rgba(200,241,53,0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.about-shira-section::after {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  right: -80px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(139,195,74,0.07) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Container */
+.about-shira-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ===== IMAGE COLUMN ===== */
+.about-shira-image-col {
+  flex: 0 0 340px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-shira-image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.about-shira-photo {
+  width: 320px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+  border: 3px solid rgba(200, 241, 53, 0.25);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 100%;
+}
+
+.about-shira-photo:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.6);
+}
+
+/* Badge */
+.about-shira-badge {
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+  background: var(--gradient-primary, linear-gradient(135deg, #C8F135 0%, #8BC34A 100%));
+  border-radius: 14px;
+  padding: 14px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px rgba(200, 241, 53, 0.35);
+  min-width: 90px;
+}
+
+.about-shira-badge-number {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #111315;
+  line-height: 1;
+  display: block;
+}
+
+.about-shira-badge-text {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #111315;
+  text-align: center;
+  margin-top: 3px;
+  line-height: 1.2;
+  display: block;
+}
+
+/* ===== CONTENT COLUMN ===== */
+.about-shira-content-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* Eyebrow */
+.about-shira-eyebrow {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #C8F135;
+  margin: 0 0 12px 0;
+}
+
+/* Title */
+.about-shira-title {
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.3;
+  margin: 0 0 20px 0;
+}
+
+.about-shira-title-accent {
+  background: var(--gradient-primary, linear-gradient(135deg, #C8F135 0%, #8BC34A 100%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Intro */
+.about-shira-intro {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.75;
+  margin: 0 0 20px 0;
+}
+
+/* Highlight Box */
+.about-shira-highlight-box {
+  background: rgba(200, 241, 53, 0.08);
+  border-right: 4px solid #C8F135;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin: 0 0 20px 0;
+}
+
+.about-shira-highlight-text {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #C8F135;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Body text */
+.about-shira-body {
+  font-size: 0.97rem;
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.8;
+  margin: 0 0 24px 0;
+}
+
+/* Pain Points List */
+.about-shira-pains {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-shira-pain-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.5;
+}
+
+.about-shira-pain-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  background: rgba(255, 80, 80, 0.15);
+  border: 1px solid rgba(255, 80, 80, 0.35);
+  border-radius: 50%;
+  color: #ff6b6b;
+  font-size: 0.75rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* Closing line */
+.about-shira-closing {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.65;
+  margin: 0 0 28px 0;
+  font-style: italic;
+}
+
+/* CTA Button */
+.about-shira-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--gradient-primary, linear-gradient(135deg, #C8F135 0%, #8BC34A 100%));
+  color: #111315;
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: none;
+  padding: 14px 32px;
+  border-radius: 50px;
+  align-self: flex-start;
+  box-shadow: 0 6px 24px rgba(200, 241, 53, 0.3);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+  cursor: pointer;
+}
+
+.about-shira-cta:hover,
+.about-shira-cta:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 32px rgba(200, 241, 53, 0.45);
+  filter: brightness(1.06);
+  outline: none;
+}
+
+.about-shira-cta:focus-visible {
+  outline: 3px solid #C8F135;
+  outline-offset: 3px;
+}
+
+.about-shira-cta-arrow {
+  font-size: 1.1rem;
+  transition: transform 0.25s ease;
+}
+
+.about-shira-cta:hover .about-shira-cta-arrow {
+  transform: translateX(-4px);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .about-shira-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .about-shira-image-col {
+    flex: none;
+    width: 100%;
+  }
+
+  .about-shira-photo {
+    width: 280px;
+    height: 340px;
+  }
+
+  .about-shira-badge {
+    bottom: -16px;
+    left: -10px;
+  }
+
+  .about-shira-title {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-shira-section {
+    padding: 60px 16px;
+  }
+
+  .about-shira-title {
+    font-size: 1.5rem;
+  }
+
+  .about-shira-intro {
+    font-size: 0.97rem;
+  }
+
+  .about-shira-photo {
+    width: 240px;
+    height: 300px;
+  }
+
+  .about-shira-badge-number {
+    font-size: 1.6rem;
+  }
+
+  .about-shira-cta {
+    width: 100%;
+    justify-content: center;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
