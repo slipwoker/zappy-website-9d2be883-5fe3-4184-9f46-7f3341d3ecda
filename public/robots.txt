@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shiratzadik.zappy5.app/sitemap.xml
+Sitemap: https://shirazadik.co.il/sitemap.xml

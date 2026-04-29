@@ -1,59 +1,47 @@
-# שירה צדיק — Generative Engine Optimization Map
-
-> A sales optimization service that builds structured sales funnels for businesses — filtering out unqualified leads, warming up prospects, and creating more closings without the business owner having to chase every lead. The brand is practical, results-driven, and positions itself as a system-builder that takes everything time-wasting in the sales process and organizes it into a machine that works for the business. Strong emphasis on efficiency, automation, and freeing up the owner's time.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### בית
-https://shiratzadik.zappy5.app
+https://shirazadik.co.il
 עייפתם לרדוף אחרי לידים? שירה צדיק בונה מערכת מכירות אוטומטית לעסקים שמסננת, מחממת וסוגרת — בלי שתצטרכו להיות שם בכל שלב. התחילו למכור בחכמה.
 
 ### פתרונות
-https://shiratzadik.zappy5.app/solutions
+https://shirazadik.co.il/solutions
 גלו איך מערכת המכירות של שירה צדיק מייעלת כל שלב במשפך — מסינון לידים לא רלוונטיים ועד הגדלת אחוזי סגירה במכירות. פתרונות מותאמים לעסקים שרוצים תוצאות אמיתיות.
 
 ### אודות
-https://shiratzadik.zappy5.app/about
+https://shirazadik.co.il/about
 שירה צדיק היא מומחית לייעול תהליך מכירות לעסקים קטנים ובינוניים, עם גישה מעשית ומוכחת שהופכת כאוס מכירות למערכת מסודרת שעובדת גם כשאתם לא. הכירו את הגישה שמשנה עסקים.
 
 ### צור קשר
-https://shiratzadik.zappy5.app/contact
+https://shirazadik.co.il/contact
 צרו קשר עם שירה צדיק היום ותגלו איך בניית מערכת מכירות אוטומטית לעסק שלכם יכולה להכפיל סגירות ולפנות לכם זמן יקר. הצעד הראשון לשינוי מתחיל כאן.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://shiratzadik.zappy5.app/privacy
+https://shirazadik.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://shiratzadik.zappy5.app/terms
+https://shirazadik.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://shiratzadik.zappy5.app/accessibility
+https://shirazadik.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About שירה צדיק
-A sales optimization service that builds structured sales funnels for businesses — filtering out unqualified leads, warming up prospects, and creating more closings without the business owner having to chase every lead. The brand is practical, results-driven, and positions itself as a system-builder that takes everything time-wasting in the sales process and organizes it into a machine that works for the business. Strong emphasis on efficiency, automation, and freeing up the owner's time.
-
-## Target Audience
-- בעלי עסקים שרוצים לייעל את תהליך המכירה ולהפסיק לרדוף אחרי לידים
-- בעלי עסקים המעוניינים לייעל מכירות
-- חברות טכנולוגיה חדשניות
-
-## Industry
-מכירות ושיווק עסקי
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://shiratzadik.zappy5.app/sitemap.xml
-- **Robots.txt**: https://shiratzadik.zappy5.app/robots.txt
+- **Sitemap**: https://shirazadik.co.il/sitemap.xml
+- **Robots.txt**: https://shirazadik.co.il/robots.txt
