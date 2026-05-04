@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# שירה צדיק — Generative Engine Optimization Map
+
+> A sales optimization service that builds structured sales funnels for businesses — filtering out unqualified leads, warming up prospects, and creating more closings without the business owner having to chase every lead. The brand is practical, results-driven, and positions itself as a system-builder that takes everything time-wasting in the sales process and organizes it into a machine that works for the business. Strong emphasis on efficiency, automation, and freeing up the owner's time.
 
 ---
 
@@ -36,12 +38,44 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## How to Contact Us
 
-## About Business
+- Email: shirazadik99@gmail.com
+- Phone: 0503737557
+- Phone (tel): tel:0503737557
+- Address: תוצרת הארץ 3, פתח תקווה, ישראל, ישראל
+
+### Contact form
+- URL: https://shirazadik.co.il/contact
+- Endpoint: https://shirazadik.co.il/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://shirazadik.co.il/sitemap.xml
-- **Robots.txt**: https://shirazadik.co.il/robots.txt
+## About שירה צדיק
+A sales optimization service that builds structured sales funnels for businesses — filtering out unqualified leads, warming up prospects, and creating more closings without the business owner having to chase every lead. The brand is practical, results-driven, and positions itself as a system-builder that takes everything time-wasting in the sales process and organizes it into a machine that works for the business. Strong emphasis on efficiency, automation, and freeing up the owner's time.
+
+## Target Audience
+- בעלי עסקים שרוצים לייעל את תהליך המכירה ולהפסיק לרדוף אחרי לידים
+- בעלי עסקים המעוניינים לייעל מכירות
+- חברות טכנולוגיה חדשניות
+
+## Industry
+מכירות ושיווק עסקי
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://shirazadik.co.il/sitemap.xml
+- Robots: https://shirazadik.co.il/robots.txt
+- Flattened page text (for LLMs): https://shirazadik.co.il/llms-full.txt
